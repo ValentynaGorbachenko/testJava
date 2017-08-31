@@ -20,9 +20,11 @@ public class GetSum {
 		
 		return res;
 	}
-	public static char addBits(char a, char b) {
-		if ( a == "1" && b == "1") {
-			
-		}
+	public static String addBits(String a, String b) {
+		String x = "";
+//		if ( a == "1" && b == "1") {
+//			
+//		}
+		return x;
 	}
 }
