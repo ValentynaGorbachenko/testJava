@@ -23,6 +23,16 @@ public class TestClass2 {
 		String[] str2 = new String[2];
 		str2[0] = "a";
 		str2[1] = "b";
-		TestClass1.main(str2);
+		TestClass1.test1(str2);
+		
+		System.out.println("********************");
+		
+		System.out.println(ComputeArea.computeCircle(2.0));
+		
+		System.out.println("********************");
+		
+		System.out.println(ComputeArea.computeCircleFromConsoleInut());
+		
+		
 	}
 }
